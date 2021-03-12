@@ -23,5 +23,5 @@ span p, html:not([lang]), img[alt=""], img[alt="photo"], img[alt="image"], body 
 [muted="muted"], [nohref="nohref"], [noresize="noresize"], [novalidate="novalidate"], [nowrap="nowrap"], [open="open"], [readonly="readonly"], 
 [required="required"], [reversed="reversed"], [scoped="scoped"], [scrolling="scrolling"], [seamless="seamless"], [selected="selected"], 
 [sortable="sortable"], [spellcheck="spellcheck"], [translate="translate"], [onkeypress]`)) {
-	document.body.innerHTML = "This website was deleted because it contains invalid HTML";
+	document.body.innerHTML = "<h1>This website was deleted because it contains invalid HTML</h1>";
 };
